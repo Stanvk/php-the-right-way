@@ -3,12 +3,11 @@ isChild: true
 anchor:  mac_setup
 ---
 
-## Mac Setup {#mac_setup_title}
-
-OS X comes prepackaged with PHP but it is normally a little behind the latest stable. Mountain Lion has 5.3.10,
-Mavericks has 5.4.17 and Yosemite has 5.5.9, but with PHP 5.6 out that is often not good enough.
-
-There are multiple ways to install PHP on OS X.
+ ## Mac Setup {#mac_setup_title}
+ 
+OS X komt standaard met PHP. Normaal gezien is deze versie iets ouder dan de laatste stabiele versie. Mountain Lion heeft 5.3.10. Mavericks heeft 5.4.17 en Yosemite heeft 5.5.9, echter zijn deze versies vaak net iets te oud en daarom vaak niet goed genoeg.
+ 
+Er zijn verschillende manieren om PHP op OS X te installeren.
 
 ### Install PHP via Homebrew
 
@@ -17,6 +16,13 @@ There are multiple ways to install PHP on OS X.
 
 At this point, you can install `php53`, `php54`, `php55` or `php56` using the `brew install` command, and switch
 between them by modifying your `PATH` variable. Alternatively you can use [brew-php-switcher][brew-php-switcher] which will switch automatically for you.
+
+//DUTCH TRANSLATION:
+### PHP installeren via Homebrew
+
+[Homebrew] is een krachtige package manager voor OS X, die het je gemakkelijk maakt om PHP en verschillende extensies te installeren. [Homebrew PHP] is een repository die een PHP-gerelateerde "formulae" voor Homebrew bevat.
+
+Momenteel kan je `php53`, `php54`, `php55` of `php56` installeren, door gebruik te maken van het `brew install` commando. Door je `PATH` variabele te veranderen kan je schakelen tussen verschillende versies. Als alternatief kan je [brew-php-switcher][brew-php-switcher] gebruiken die automatisch voor je schakelt.
 
 ### Install PHP via Macports
 
