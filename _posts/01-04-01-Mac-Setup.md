@@ -9,18 +9,9 @@ OS X komt standaard met PHP. Normaal gezien is deze versie iets ouder dan de laa
  
 Er zijn verschillende manieren om PHP op OS X te installeren.
 
-### Install PHP via Homebrew
-
-[Homebrew] is a powerful package manager for OS X, which can help you install PHP and various extensions easily.
-[Homebrew PHP] is a repository that contains PHP-related "formulae" for Homebrew, and will let you install PHP.
-
-At this point, you can install `php53`, `php54`, `php55` or `php56` using the `brew install` command, and switch
-between them by modifying your `PATH` variable. Alternatively you can use [brew-php-switcher][brew-php-switcher] which will switch automatically for you.
-
-//DUTCH TRANSLATION:
 ### PHP installeren via Homebrew
 
-[Homebrew] is een krachtige package manager voor OS X, die het je gemakkelijk maakt om PHP en verschillende extensies te installeren. [Homebrew PHP] is een repository die een PHP-gerelateerde "formulae" voor Homebrew bevat.
+[Homebrew] is een krachtige package manager voor OS X, die het je gemakkelijk maakt om PHP en verschillende extensies te installeren. [Homebrew PHP] is een repository die een PHP-gerelateerde "formulae" voor Homebrew bevat. Waardoor je PHP kan installeren.
 
 Momenteel kan je `php53`, `php54`, `php55` of `php56` installeren, door gebruik te maken van het `brew install` commando. Door je `PATH` variabele te veranderen kan je schakelen tussen verschillende versies. Als alternatief kan je [brew-php-switcher][brew-php-switcher] gebruiken die automatisch voor je schakelt.
 
@@ -43,7 +34,7 @@ At this point, you can install `php53`, `php54`, `php55` or `php56` using the `p
 And you can run `select` command to switch your active php:
 
     sudo port select --set php php55
-
+    
 ### Install PHP via phpbrew
 
 [phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two different
